@@ -1,0 +1,27 @@
+<div>
+  <div>
+    <div>
+      <div>
+        <img src="https://picsum.photos/500/300" />
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h2>題名が入ります</h2>
+        <div>テキストが入ります。テキストが入ります。</div>
+        <a href="#">ボタンのラベルが入ります</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %} { "name": "サンプルUdemy", "settings": [ { "type": "image_picker",
+"id": "image", "label": "画像" }, { "type": "text", "id": "heading", "default":
+"題名が入ります", "label": "題名" }, { "type": "richtext", "id": "text",
+"default": "
+<p>テキストが入ります。テキストが入ります。</p>
+", "label": "テキスト" }, { "type": "text", "id": "button_label", "label":
+"ボタンのラベルが入ります", "info": "ボタンのラベルのインフォメーション" }, {
+"type": "text", "id": "button_link", "label":"URL" } ], "presets": [ { "name":
+"サンプルUdemy" } ] } {% endschema %} {% stylesheet %} {% endstylesheet %} {%
+javascript %} {% endjavascript %}
