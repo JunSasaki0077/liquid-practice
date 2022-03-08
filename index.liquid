@@ -1,16 +1,14 @@
 <div>
   <div>
     <div>
-      <div>
-        <img src="https://picsum.photos/500/300" />
-      </div>
+      <div><img src =" {{{% section.settings.image|img_url:"500x" %}}} "></div>
     </div>
 
     <div>
       <div>
-        <h2>題名が入ります</h2>
-        <div>テキストが入ります。テキストが入ります。</div>
-        <a href="#">ボタンのラベルが入ります</a>
+        <h2>{{ section.settings.heading }}</h2>
+        <div>{{ section.settings.text }}</div>
+        <a href="#"> {{ section.settings.button_label }} </a>
       </div>
     </div>
   </div>
